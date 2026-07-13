@@ -13,7 +13,7 @@ async function start(){
     return res.data.fact
     }
     catch(e){
-        return e
+        return "No Fact Found";
     }
 
 }
